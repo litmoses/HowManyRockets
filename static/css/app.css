@@ -1,0 +1,140 @@
+.navbar-brand {
+    font-family: 'Peralta', cursive;
+    color: darkgrey !important;
+  }
+
+.navbar-nav li a {
+  color: darkgray !important;
+}  
+
+.material-inputs {
+    width: 50%;
+    height: 23vh;
+    float: left;
+    position: relative;
+}
+
+.material-inputs p {
+  color: black;
+  font-weight: bold;
+  font-family: 'Peralta', cursive;
+  text-align: center;
+}
+
+.input-container {
+    width: 100%;
+    height: 70%;
+    border: solid;
+    position: absolute;
+    /*border: 4px solid blue;*/
+}
+
+.input-item {
+    height: 100%;
+    width: 50%;
+    /*border: 4px solid red;*/
+    text-align: center;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-top: -2vh;
+}
+
+.input-item img {
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.input-item input {
+  background-color: #404F64;
+  opacity: 70% !important;
+  font-family: Inter;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5em;
+  width: 10ch;
+  text-align: center;
+  resize: none;
+  float: left;
+  position: absolute;
+  color: #FFFFFF;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  margin-top: -4vh;
+}
+
+.refined-outputs {
+  width: 50%;
+  height: 30vh;
+  margin-left: 12%;
+  position: relative;
+  
+}
+
+.output-container {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  /*border: 4px solid blue;*/
+}
+
+.output-item {
+  height: 100%;
+  width: 50%;
+  /*border: 4px solid red;*/
+  text-align: center;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.output-item img {
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.output-item p {
+  background-color: #854f30;
+  opacity: 90% !important;
+  font-family: Inter;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  width: 10ch;
+  text-align: center;
+  resize: none;
+  float: left;
+  position: absolute;
+  margin-left: 55%;
+  color: #ffffff;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.extra-outputs {
+  width: 50%;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 2%;
+  position: relative;
+}
+
+.extra-container {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  /*border: 4px solid blue;*/
+}

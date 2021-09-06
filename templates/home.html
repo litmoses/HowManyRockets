@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} How many Rockets can we make? {% endblock %}
+
+{% block content %}
+
+
+    <body onload="init()">
+
+
+        <div class="material-inputs" id="material-inputs" onLoad="init()">
+            <p>Insert how much Sulfur and GP you have, to see<br>how many rockets<br>you can make.</p>
+            <div class="input-container" id="input-container">
+                <div class="input-item">
+                    <img src="{% static 'images/sulfur.png' %}" alt="Girl in a jacket" width="250" height="300"/>
+                    <input
+                        type="number"
+                        placeholder="0"
+                        id="sulfur-in"
+                    />
+                </div>
+                <div class="input-item">
+                    <img src="{% static 'images/gunpowder.png' %}" alt="Girl in a jacket" width="250" height="300"/>
+                    <input
+                        type="number"
+                        placeholder="0"
+                        id="gunpowder-in"
+                    />
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="refined-outputs" id="refined-outputs">
+            <div class="output-container" id="output-container">
+                <div class="output-item" id="rocket-count">
+                </div>
+            </div>
+        </div>
+
+        <div class="extra-outputs" id="extra-outputs">
+            <div class="extra-container" id="extra-container">
+                
+            </div>
+        </div>
+
+
+    </body>
+    <script async src="{% static 'js/script.js' %}"></script>
+
+
+{% endblock content %}
